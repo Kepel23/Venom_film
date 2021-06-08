@@ -53,3 +53,38 @@ body {
   max-width: 423px;
   color: rgba(255, 255, 255, 0.8);
 }
+
+.film-preview {
+  display: flex;
+  margin-top: 70px;
+  
+}
+
+.film-watch {
+  width: 204px;
+  height: 46px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 16px;
+  
+  color: #8d0019;
+  background: #ffffff;
+  border-radius: 5px;
+  
+}
+
+.film-preview img{
+  margin-right: 11px;
+}
+
+.film-ticket {
+  display:flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 16px;
+  margin-left: 50px;
+
+  color: #ffffff;
+}
