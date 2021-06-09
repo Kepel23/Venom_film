@@ -8,6 +8,10 @@ body {
   margin: auto;
 }
 
+
+/* ##################  */
+
+/* Header */
 .header {
   padding-top: 40px;
   display: flex;
@@ -36,6 +40,9 @@ body {
   color: rgba(255, 255, 255, 0.5);
 }
 
+/* ##################  */
+
+/* Main Text */
 .film-date {
   display: block;
   font-size: 24px;
@@ -52,6 +59,10 @@ body {
   max-width: 423px;
   color: rgba(255, 255, 255, 0.8);
 }
+
+/* ##################  */
+
+/* Button view */
 
 .button-group {
   
@@ -91,6 +102,9 @@ body {
   color: #ffffff;
 }
 
+/* ##################  */
+
+/* Background Images */
 
 
 .venom {
@@ -105,3 +119,6 @@ body {
   
 }
 
+/* ##################  */
+
+/*  */
