@@ -1,5 +1,4 @@
 body {
-  background-color: #14131a;
   color: #fff;
   font-family: "Roboto", sans-serif;
 }
@@ -54,38 +53,55 @@ body {
   color: rgba(255, 255, 255, 0.8);
 }
 
-.film-preview {
-  display: flex;
+.button-group {
+  
   margin-top: 70px;
   
 }
 
-.film-watch {
-  width: 204px;
-  height: 46px;
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
-  line-height: 16px;
+.button {
+  padding:15px 30px;
+  border:none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button-primary {
+  
   color: #8d0019;
   background-color: #fff;
-  border-radius: 5px;
   
-  border: none;
+  
 
 }
 
-.film-preview img{
-  margin-right: 11px;
+.button-icon, .button-text{
+  display:inline-block;
+  vertical-align: middle;
 }
 
-.film-ticket {
-  display:flex;
-  align-items: center;
+.button-text {
+  margin-left: 10px;
   font-size: 14px;
   line-height: 16px;
-  margin-left: 50px;
-  
+}
+
+.button-link {
   color: #ffffff;
 }
+
+
+
+.venom {
+  position: absolute;
+  top:0;
+  right:0;
+}
+
+.blood {
+  background:url('../img/blood.png') no-repeat top right,
+   #14131a url('../img/background.jpg') no-repeat center center / cover;
+  
+}
+
